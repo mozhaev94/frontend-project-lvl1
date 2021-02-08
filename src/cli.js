@@ -2,13 +2,14 @@ import readlineSync from 'readline-sync';
 
 export default () => {
   const noValidMessage = 'Please, say me your correct name, bro.';
-  let userName = readlineSync.question('May I have your name? ');
-  if (userName.length < 2) {
+  let nameUser = readlineSync.question('May I have your name? ');
+  if (nameUser.length < 2) {
     console.log(noValidMessage);
-    return;
-  } if (userName[0] === userName[0].toLowerCase()) {
-    userName = userName[0].toUpperCase() + userName.slice(1);
+    nameUser = readlineSync.question();
+  } if (nameUser[0] === nameUser[0].toLowerCase()) {
+    nameUser = nameUser[0].toUpperCase() + nameUser.slice(1);
   }
 
-  console.log(`Hello, ${userName}!`);
+  console.log(`Hello, ${nameUser}!`);
+  return nameUser;
 };

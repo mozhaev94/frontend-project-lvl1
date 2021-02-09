@@ -12,7 +12,7 @@ export default (nameUser) => {
     const operator = randomOperator();
     question();
     if (operator === '+') {
-      console.log(`Question: ${firstOperand}+${secondOperand}`);
+      console.log(`Question: ${firstOperand} + ${secondOperand}`);
       const answerUser = Number(readlineSync.question('Your answer: '));
       const result = firstOperand + secondOperand;
       if (result === answerUser) {
@@ -23,7 +23,7 @@ export default (nameUser) => {
         return tryAgain(nameUser);
       }
     } else if (operator === '-') {
-      console.log(`Question: ${firstOperand}-${secondOperand}`);
+      console.log(`Question: ${firstOperand} - ${secondOperand}`);
       const answerUser = Number(readlineSync.question('Your answer: '));
       const result = firstOperand - secondOperand;
       if (result === answerUser) {
@@ -34,7 +34,7 @@ export default (nameUser) => {
         return tryAgain(nameUser);
       }
     } else if (operator === '*') {
-      console.log(`Question: ${firstOperand}*${secondOperand}`);
+      console.log(`Question: ${firstOperand} * ${secondOperand}`);
       const answerUser = Number(readlineSync.question('Your answer: '));
       const result = firstOperand * secondOperand;
       if (result === answerUser) {

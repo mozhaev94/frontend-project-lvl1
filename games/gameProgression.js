@@ -12,7 +12,7 @@ export default (userName) => {
     const questionItem = collection[indexOfItemQuestion];
     collection[indexOfItemQuestion] = '..';
     const questionString = collection.join(' ');
-    console.log(`'Question: '  ${questionString}`);
+    console.log(`'Question:  ${questionString}`);
     const answerUser = Number(readlineSync.question('Your answer: '));
     if (answerUser === questionItem) {
       correctAnswer += 1;

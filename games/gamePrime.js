@@ -19,5 +19,5 @@ export default (nameUser) => {
       correct();
     } else return tryAgain(nameUser);
   }
-  congratulations(nameUser);
+  return congratulations(nameUser);
 };

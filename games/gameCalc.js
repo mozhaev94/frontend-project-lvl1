@@ -46,5 +46,5 @@ export default (nameUser) => {
       }
     }
   }
-  congratulations(nameUser);
+  return congratulations(nameUser);
 };

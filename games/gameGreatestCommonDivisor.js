@@ -21,5 +21,5 @@ export default (nameUser) => {
       return tryAgain(nameUser);
     }
   }
-  congratulations(nameUser);
+  return congratulations(nameUser);
 };

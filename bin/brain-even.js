@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import sayMeYourName from '../src/cli.js';
-import gameCheckParityNumber from '../src/gameCheckParityNumber.js';
+import sayMeYourName, { welcome } from '../src/cli.js';
+import gameCheckParityNumber from '../games/gameCheckParityNumber.js';
 
-console.log('Welcome to the Brain Games!');
+welcome();
 const nameUser = sayMeYourName();
 gameCheckParityNumber(nameUser);

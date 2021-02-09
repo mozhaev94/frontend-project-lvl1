@@ -8,3 +8,6 @@
 https://asciinema.org/a/5IIC926QRr8w93AnOCsFn1iNk --- game Check parity number
 
 https://asciinema.org/a/i049Mu1aDZ0aZCzBVaf3VXjyZ  --- game Calculator
+
+https://asciinema.org/a/NLxt9L9fqXoZc623cgj8gT1Gn --- game greatest common divisor
+

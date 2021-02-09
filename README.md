@@ -5,4 +5,6 @@
 
 [![Node CI](https://github.com/mozhaev94/frontend-project-lvl1/workflows/Node%20CI/badge.svg)](https://github.com/mozhaev94/frontend-project-lvl1/actions)
 
-https://asciinema.org/a/5IIC926QRr8w93AnOCsFn1iNk
+https://asciinema.org/a/5IIC926QRr8w93AnOCsFn1iNk --- game Check parity number
+
+https://asciinema.org/a/i049Mu1aDZ0aZCzBVaf3VXjyZ  --- game Calculator

@@ -6,10 +6,10 @@ import biggerDivisor from '../src/biggerDivisor.js';
 const question = () => console.log('Find the greatest common divisor of given numbers.');
 export default (nameUser) => {
   let correctAnswer = 0;
+  question();
   while (correctAnswer < 3) {
     const firstNumber = randomNumber(100);
     const secondNumber = randomNumber(100);
-    question();
     console.log(`Question: ${firstNumber}  ${secondNumber}`);
     const result = biggerDivisor(firstNumber, secondNumber);
     const answerUser = Number(readlineSync.question('Your answer: '));

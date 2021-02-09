@@ -6,11 +6,11 @@ const question = () => console.log('What is the result of the expression?');
 const invalidAnswer = (answerUser, result) => console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${result}'`);
 export default (nameUser) => {
   let correctAnswer = 0;
+  question();
   while (correctAnswer < 3) {
     const firstOperand = randomNumber(100);
     const secondOperand = randomNumber(100);
     const operator = randomOperator();
-    question();
     if (operator === '+') {
       console.log(`Question: ${firstOperand} + ${secondOperand}`);
       const answerUser = Number(readlineSync.question('Your answer: '));

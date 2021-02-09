@@ -36,5 +36,5 @@ export default (nameUser) => {
       } else return tryAgain(nameUser);
     }
   }
-  congratulations();
+  congratulations(nameUser);
 };

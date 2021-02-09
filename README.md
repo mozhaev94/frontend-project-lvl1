@@ -12,3 +12,5 @@ https://asciinema.org/a/i049Mu1aDZ0aZCzBVaf3VXjyZ  --- game Calculator
 https://asciinema.org/a/NLxt9L9fqXoZc623cgj8gT1Gn --- game greatest common divisor
 
 https://asciinema.org/a/On6qnVop4tIBxmOTq7TlF8xrt --- game Progression
+
+https://asciinema.org/a/t95cEunn9hs21FJEWDJ2rN9EY --- game Prime

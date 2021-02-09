@@ -10,7 +10,7 @@ export default (nameUser) => {
   while (correctAnswer < 3) {
     const firstNumber = randomNumber(100);
     const secondNumber = randomNumber(100);
-    console.log(`Question: ${firstNumber}  ${secondNumber}`);
+    console.log(`Question: ${firstNumber} ${secondNumber}`);
     const result = biggerDivisor(firstNumber, secondNumber);
     const answerUser = Number(readlineSync.question('Your answer: '));
     if (result === answerUser) {

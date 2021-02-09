@@ -13,3 +13,8 @@ export default () => {
   console.log(`Hello, ${nameUser}!`);
   return nameUser;
 };
+
+export const welcome = () => console.log('Welcome to the Brain Games!');
+export const congratulations = (nameUser) => console.log(`Congratulations, ${nameUser}!`);
+export const correct = () => console.log('Correct!');
+export const tryAgain = (nameUser) => console.log(`Let's try again, ${nameUser}!`);
